@@ -4,7 +4,7 @@ A .NET 10 console application that monitors price-movement signals from Clerusyn
 
 > **Warning:** This software can place real orders. Use it at your own risk and test before using a live Trading 212 account.
 
-## Function
+## How It Works
 
 The bot runs continuously and checks the market every **60 seconds**.
 
@@ -36,7 +36,7 @@ Create a `.env` file with the file path `FiftyTwoWeekClimbPlan\.env` the followi
 BASE_URL=your-trading212-api-base-url
 API_KEY=your-trading212-api-key
 API_SECRET=your-trading212-api-secret
-CLERUSYNC_API_KEY=your-clerusync-investment-api-key
+CLERUSYNC_INVESTMENT_API_KEY=your-clerusync-investment-api-key
 ```
 
 The application expects `.env` to be copied to:
@@ -118,11 +118,37 @@ displaying them on console rather than immediately closing the application.
 Contains the Trading 212 instrument list used to match Clerusync tickers with Trading 212 tickers. 
 Due to copyright laws, I can not publish Trading212 instruments list used for maping short name and trading212 tickers from a json file. However, the list can be accessed via:
 
-```text
-curl -X GET "https://live.trading212.com/api/v0/equity/metadata/instruments" \
-  -u "YOUR_API_KEY:YOUR_API_SECRET" \
-  -H "Accept: application/json"
+The python package requests `pip3 install requests`, navigate to the folder containing the `trading212instruments.py` file path `FiftyTwoWeekClimbPlan\trading212instruments.py` and run python script with `python3 trading212instruments.py`.
+
+## Apple, Linux and Windows
+
+```python
+import requests
+import json
+
+API_KEY = "YOUR_API_KEY"
+API_SECRET = "YOUR_API_SECRET"
+
+url = "https://live.trading212.com/api/v0/equity/metadata/instruments"
+
+response = requests.get(
+    url,
+    auth=(API_KEY, API_SECRET)
+)
+
+if response.ok:
+    instruments = response.json()
+
+    with open("instruments.json", "w", encoding="utf-8") as file:
+        json.dump(instruments, file, indent=2, ensure_ascii=False)
+
+    print(f"Success! {len(instruments)} instruments saved to instruments.json")
+
+else:
+    print(f"Error: {response.status_code}")
+    print(response.text)
 ```
+
 
 ### `bot-trades.json`
 
@@ -155,7 +181,7 @@ Trading212 API: ...
 Buy amount: £5
 Profit target: 5%
 Stop loss: -20%
-Check interval: 60s
+Check interval: 60 seconds
 
 Loaded 15534 instruments
 Trading bot started
