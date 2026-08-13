@@ -80,7 +80,6 @@ The solution requires the following NuGet packages:
 | `Microsoft.Extensions.Configuration.Json`                 | Allows configuration to be read from JSON files            |
 | `Microsoft.Net.Http.Headers`                              | Provides HTTP header functionality                         |
 | `System.Net.Http`                                         | Provides HTTP client functionality for API communication   | 
-| `pip3 install requests`                                   | Allows python script to request instruments                | 
 
 The solution requires the following python packages:
 | Package                                                   | Purpose                                                    |
