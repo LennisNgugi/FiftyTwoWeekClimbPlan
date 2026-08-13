@@ -153,7 +153,7 @@ Fifty Two Week Climb Plan Bot
 BASE_URL: ...
 Trading212 API: ...
 Buy amount: £5
-Profit target: 1%
+Profit target: 5%
 Stop loss: -20%
 Check interval: 60s
 
