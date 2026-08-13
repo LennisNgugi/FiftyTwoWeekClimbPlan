@@ -1,4 +1,4 @@
-﻿using System.Text.Json;
+using System.Text.Json;
 using FiftyTwoWeekClimbPlan.Configuration;
 using FiftyTwoWeekClimbPlan.Models;
 
@@ -112,7 +112,7 @@ public class TradingBot
         Console.WriteLine();
 
         Console.WriteLine(
-            $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] " +
+            $"[{DateTime.Now:dd-MM-yyyy HH:mm:ss}] " + 
             "Checking market..."
         );
 
