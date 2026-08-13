@@ -189,7 +189,7 @@ Stop loss: -20%
 Check interval: 60 seconds
 
 Loaded 15534 instruments
-Trading bot started
+Investing bot started
 ```
 
 ## Considerations
