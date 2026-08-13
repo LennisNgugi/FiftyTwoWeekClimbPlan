@@ -30,7 +30,7 @@ After a stop-loss sale, the ticker is placed on a **12-hour cooldown** before an
 
 ## Configuration
 
-Create a `.env` file with the file path `FiftyTwoWeekClimbPlan\.env` the following environment variables are required in file:
+Create a `.env` file in the file path `FiftyTwoWeekClimbPlan\.env` the following environment variables are required in file:
 
 ```text
 BASE_URL=your-trading212-api-base-url
