@@ -175,11 +175,17 @@
 
   10. Third-party services and data
 
-      This project integrates with third-party services including the Trading 212 API and Clerusync Investment          API. Use of those services, APIs, data and associated trademarks is subject to the respective providers'          terms and conditions.
+      This project integrates with third-party services including 
+      the Trading 212 API and Clerusync Investment API. Use of those 
+      services, APIs, data and associated trademarks is subject to the 
+      respective providers' terms and conditions.
 
-      The Apache License 2.0 applies only to the original source code contained in this repository and does not         grant rights to third-party APIs, data, trademarks or other third-party materials.
+      The Apache License 2.0 applies only to the original source code 
+      contained in this repository and does not grant rights to third-party APIs, 
+      data, trademarks or other third-party materials.
 
-      instruments.json is generated from Trading 212's API and is intentionally not distributed with this               repository.
+      Instruments.json is generated from Trading 212's API and is intentionally 
+      not distributed with this repository.
 
    END OF TERMS AND CONDITIONS
 
