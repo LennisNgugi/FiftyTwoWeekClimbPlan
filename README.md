@@ -36,7 +36,7 @@ Create a `.env` file with the file path `FiftyTwoWeekClimbPlan\.env` the followi
 BASE_URL=your-trading212-api-base-url
 API_KEY=your-trading212-api-key
 API_SECRET=your-trading212-api-secret
-CLERUSYNC_INVESTMENT_API_KEY=your-clerusync-investment-api-key
+CLERUSYNC_API_KEY=your-clerusync-investment-api-key
 ```
 
 The application expects `.env` to be copied to:
