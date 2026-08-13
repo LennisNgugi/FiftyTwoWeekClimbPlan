@@ -82,6 +82,11 @@ The solution requires the following NuGet packages:
 | `System.Net.Http`                                         | Provides HTTP client functionality for API communication   | 
 | `pip3 install requests`                                   | Allows python script to request instruments                | 
 
+The solution requires the following python packages:
+| Package                                                   | Purpose                                                    |
+| --------------------------------------------------------- | ---------------------------------------------------------- |
+| `pip3 install requests`                                   | Allows python script to request instruments                | 
+
 ## Investing Configuration
 
 The main investing parameters are defined in the BotSettings class of `BotSettings.cs`:
