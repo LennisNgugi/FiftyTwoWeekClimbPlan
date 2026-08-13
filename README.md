@@ -116,7 +116,7 @@ displaying them on console rather than immediately closing the application.
 ### `instruments.json`
 
 Contains the Trading 212 instrument list used to match Clerusync tickers with Trading 212 tickers. 
-Due to copyright laws, I can not publish Trading212 instruments list used for maping short name and trading212 tickers from a json file. However, the list can be accessed with the python script trading212instruments.py.
+Due to copyright laws, I can not publish Trading212 instruments list used for maping short name and trading212 tickers from a json file. However, the list can be accessed with the python script `trading212instruments.py`.
 
 Firstly install the python package requests `pip3 install requests`, navigate to the folder containing the `trading212instruments.py` file path `FiftyTwoWeekClimbPlan\trading212instruments.py` and run python script with `python3 trading212instruments.py`. Once ran the instruments.json will be created and updated with latests instruments records. 
 
@@ -187,7 +187,7 @@ Loaded 15534 instruments
 Trading bot started
 ```
 
-## Important Considerations
+## Considerations
 
 The bot uses the **Clerusync Investment API  `newHigh` price as the reference price** when calculating the quantity to purchase. The actual Trading 212 execution price may differ.
 
