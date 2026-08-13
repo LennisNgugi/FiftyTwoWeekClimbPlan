@@ -39,22 +39,22 @@ API_SECRET=your-trading212-api-secret
 CLERUSYNC_API_KEY=your-clerusync-investment-api-key
 ```
 
-The application expects `.env` to be copied to:
+The application expects `.env` to be path net10.0 so not delete once generated or error handler will appear when running the application:
 
 ```text
 bin\Debug\net10.0\.env
 ```
-The application expects `bot-trades.json` to be copied to:
+The application expects `bot-trades.json` to be path net10.0 so not delete once generated or error handler will appear when running the application:
 
 ```text
 bin\Debug\net10.0\bot-trades.json
 ```
-The application expects `stop-loss-cooldown.json` to be copied to:
+The application expects `stop-loss-cooldown.json` to be path net10.0 so not delete once generated or error handler will appear when running the application:
 
 ```text
 bin\Debug\net10.0\stop-loss-cooldown.json
 ```
-The application expects `instruments.json` to be copied to:
+The application expects `instruments.json` to be path net10.0 so not delete once generated or error handler will appear when running the application:
 
 ```text
 bin\Debug\net10.0\instruments.json
