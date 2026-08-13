@@ -1,6 +1,6 @@
 # Fifty Two Week Climb Plan
 
-A .NET 10 console application that monitors price-movement signals from the Clerusync API and automatically places buy and sell orders through the Trading 212 API.
+A .NET 10 console application that monitors price-movement signals from the Clerusync Investment API  and automatically places buy and sell orders through the Trading 212 API.
 
 > **Warning:** This software can place real orders. Use it at your own risk and test before using a live Trading 212 account.
 
@@ -189,7 +189,7 @@ Trading bot started
 
 ## Important Considerations
 
-The bot uses the **Clerusync api `newHigh` price as the reference price** when calculating the quantity to purchase. The actual Trading 212 execution price may differ.
+The bot uses the **Clerusync Investment API  `newHigh` price as the reference price** when calculating the quantity to purchase. The actual Trading 212 execution price may differ.
 
 The bot also relies on Trading 212's reported `currentPrice`, `averagePricePaid` and `quantity` when calculating profit and creating sell orders.
 
