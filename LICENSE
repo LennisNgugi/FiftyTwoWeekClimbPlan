@@ -180,9 +180,7 @@
       terms and conditions. The Apache License 2.0 applies only to
       the original source code contained in this repository and does not 
       grant rights to third-party APIs, data, trademarks or other 
-      third-party materials. Instruments.json is generated from 
-      Trading 212's API and is intentionally not distributed with 
-      this repository.
+      third-party materials. 
 
    END OF TERMS AND CONDITIONS
 
