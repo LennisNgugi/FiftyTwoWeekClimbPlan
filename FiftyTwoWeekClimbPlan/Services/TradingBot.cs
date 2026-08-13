@@ -78,7 +78,7 @@ public class TradingBot
         Console.WriteLine($"Buy amount: " + $"£{settings.BuyAmount}");
         Console.WriteLine($"Profit target: " + $"{settings.ProfitTarget}%");
         Console.WriteLine($"Stop loss: " + $"{settings.StopLoss}%");
-        Console.WriteLine($"Check interval: " + $"{settings.CheckInterval / 1000}s");
+        Console.WriteLine($"Check interval: " + $"{settings.CheckInterval / 1000} seconds");
         Console.WriteLine();
 
 
