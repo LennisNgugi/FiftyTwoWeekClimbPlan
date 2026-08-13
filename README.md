@@ -2,7 +2,7 @@
 
 A .NET 10 console application that monitors price-movement signals from the Clerusync Investment API  and automatically places buy and sell orders through the Trading 212 API.
 
-> **Warning:** This software can place real orders. Use it at your own risk and test before using a live Trading 212 account.
+> **Warning:** This application can place real orders. Use it at your own risk and test before using a live Trading 212 account.
 
 ## How It Works
 
