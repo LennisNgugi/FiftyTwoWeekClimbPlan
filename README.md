@@ -214,3 +214,7 @@ Dashboard/monitoring: View positions, signals, orders and bot health remotely.
 Add a database: SQLite instead of JSON files might speed up application.
 
 Use Renewable solar energy: Add bash script that automates running on raspberry pi. 
+
+##  License
+
+Apache-2.0 license
