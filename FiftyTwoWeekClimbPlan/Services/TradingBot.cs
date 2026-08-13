@@ -70,9 +70,8 @@ public class TradingBot
     public async Task StartAsync()
     {
         Console.WriteLine();
-        Console.WriteLine("=====================================");
         Console.WriteLine("Fifty Two Week Climb Plan Bot");
-        Console.WriteLine("=====================================");
+        Console.WriteLine();
         Console.WriteLine($"BASE_URL: {settings.BaseUrl}");
         Console.WriteLine($"Trading212 API: " + $"{settings.Trading212BaseUrl}");
         Console.WriteLine($"Buy amount: " + $"£{settings.BuyAmount}");
