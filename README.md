@@ -120,7 +120,7 @@ Due to copyright laws, I can not publish Trading212 instruments list used for ma
 
 Firstly install the python package requests `pip3 install requests`, navigate to the folder containing the `trading212instruments.py` file path `FiftyTwoWeekClimbPlan\trading212instruments.py` and run python script with `python3 trading212instruments.py`. Once ran the instruments.json will be created and updated with latests instruments records. 
 
-## Apple, Linux and Windows
+### Python script for instruments.json
 
 ```python
 import requests
