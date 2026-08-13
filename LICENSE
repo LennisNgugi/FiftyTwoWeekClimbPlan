@@ -173,19 +173,16 @@
       incurred by, or claims asserted against, such Contributor by reason
       of your accepting any such warranty or additional liability.
 
-  10. Third-party services and data
-
-      This project integrates with third-party services including 
-      the Trading 212 API and Clerusync Investment API. Use of those 
-      services, APIs, data and associated trademarks is subject to the 
-      respective providers' terms and conditions.
-
-      The Apache License 2.0 applies only to the original source code 
-      contained in this repository and does not grant rights to third-party APIs, 
-      data, trademarks or other third-party materials.
-
-      Instruments.json is generated from Trading 212's API and is intentionally 
-      not distributed with this repository.
+  10. Third-party services and data. This project integrates with 
+      third-party services including the Trading 212 API and 
+      Clerusync Investment API. Use of those services, APIs, data 
+      and associated trademarks is subject to the respective providers' 
+      terms and conditions. The Apache License 2.0 applies only to
+      the original source code contained in this repository and does not 
+      grant rights to third-party APIs, data, trademarks or other 
+      third-party materials. Instruments.json is generated from 
+      Trading 212's API and is intentionally not distributed with 
+      this repository.
 
    END OF TERMS AND CONDITIONS
 
@@ -200,7 +197,7 @@
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright [yyyy] [name of copyright owner]
+   Copyright 2026 734415 
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
