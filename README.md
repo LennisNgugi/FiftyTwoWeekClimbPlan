@@ -179,9 +179,8 @@ It then performs an immediate market check followed by checks every 60 seconds.
 Example:
 
 ```text
-=====================================
 Fifty Two Week Climb Plan Bot
-=====================================
+
 BASE_URL: ...
 Trading212 API: ...
 Buy amount: £5
