@@ -4,7 +4,7 @@ A .NET 10 console application that monitors price-movement signals from Clerusyn
 
 > **Warning:** This software can place real orders. Use it at your own risk and test before using a live Trading 212 account.
 
-## How It Works
+## Function
 
 The bot runs continuously and checks the market every **60 seconds**.
 
