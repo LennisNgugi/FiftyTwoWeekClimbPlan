@@ -116,7 +116,7 @@ displaying them on console rather than immediately closing the application.
 ### `instruments.json`
 
 Contains the Trading 212 instrument list used to match Clerusync tickers with Trading 212 tickers. 
-(Due to copyright laws, I can not publish Trading212 instruments list used for maping short name and trading212 tickers from a json file. However, the list can be accessed via:)
+Due to copyright laws, I can not publish Trading212 instruments list used for maping short name and trading212 tickers from a json file. However, the list can be accessed via:
 
 ```text
 curl -X GET "https://live.trading212.com/api/v0/equity/metadata/instruments" \
