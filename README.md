@@ -216,4 +216,4 @@ Use Renewable solar energy: Add bash script that automates running on raspberry 
 
 ##  License
 
-Apache-2.0 license
+[Apache-2.0 license](https://github.com/LennisNgugi/FiftyTwoWeekClimbPlan/tree/main?tab=License-1-ov-file)
