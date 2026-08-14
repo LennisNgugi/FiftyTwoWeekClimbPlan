@@ -12,7 +12,7 @@ The bot runs continuously and checks the market every **60 seconds**.
 
 A buy signal is generated when:
 
-* Clerusync reports a stock making a new high.
+* Clerusync investment reports a stock making a new high.
 * The stock exists in `instruments.json`.
 * The stock is not already tracked by the bot.
 * The stock is not within a stop-loss cooldown period.
