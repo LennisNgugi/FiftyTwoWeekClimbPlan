@@ -226,3 +226,11 @@ Renewable solar energy: Add bash script that automates running on raspberry pi.
 ##  License
 
 [Apache-2.0 license](https://github.com/LennisNgugi/FiftyTwoWeekClimbPlan/tree/main?tab=License-1-ov-file)
+> Third-party services and data. This project integrates with 
+      third-party services including the Trading 212 API and 
+      Clerusync Investment API. Use of those services, APIs, data 
+      and associated trademarks is subject to the respective providers' 
+      terms and conditions. The Apache License 2.0 applies only to
+      the original source code contained in this repository and does not 
+      grant rights to third-party APIs, data, trademarks or other 
+      third-party materials. 
