@@ -211,7 +211,7 @@ Trading 212 may reject orders because of instrument restrictions, minimum positi
 
 ## Disclaimer
 
-This project is provided for educational and automation purposes. It is an automated investing application and can result in financial losses, would recommend testing in demo before live environment BaseUrl to verify the Clerusync Investment API and Trading 212 API behaviour.
+This project is provided for educational and automation purposes. It is an automated investing application and can result in financial losses, would recommend testing in demo before live environment `BaseUrl` to verify the Clerusync Investment API and Trading 212 API behaviour.
 
 ## Future Improvements
 
