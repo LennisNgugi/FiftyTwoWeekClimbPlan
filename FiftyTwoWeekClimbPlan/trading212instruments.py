@@ -1,8 +1,12 @@
+import os
+from dotenv import load_dotenv
 import requests
 import json
 
-API_KEY = "YOUR_API_KEY"
-API_SECRET = "YOUR_API_SECRET"
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY") 
+API_SECRET =  os.getenv("API_SECRET")
 
 url = "https://live.trading212.com/api/v0/equity/metadata/instruments"
 
