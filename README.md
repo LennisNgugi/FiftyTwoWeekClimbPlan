@@ -69,6 +69,7 @@ bin\Debug\net10.0\instruments.json
     Microsoft.Net.Http.Headers
     System.Net.Http
     pip3 install requests
+    pip3 install python-dotenv
 ```
 The solution requires the following NuGet packages:
  
@@ -82,9 +83,11 @@ The solution requires the following NuGet packages:
 | `System.Net.Http`                                         | Provides HTTP client functionality for API communication   | 
 
 The solution requires the following python packages:
-| Package                                                   | Purpose                                                    |
-| --------------------------------------------------------- | ---------------------------------------------------------- |
-| `pip3 install requests`                                   | Allows python script to request instruments                | 
+| Package                                                   | Purpose                                                           |
+| --------------------------------------------------------- | ------------------------------------------------------------------|
+| `pip3 install requests`                                   | Allows python script to request instruments                       |
+| `pip3 install python-dotenv`                              | Allows python script to load key values and obtain with os module | 
+
 
 ## Investing Configuration
 
@@ -129,11 +132,16 @@ Firstly install the python package requests `pip3 install requests`, navigate to
 ### Python script for instruments.json
 
 ```python
+import os
+from dotenv import load_dotenv
 import requests
 import json
 
-API_KEY = "YOUR_API_KEY"
-API_SECRET = "YOUR_API_SECRET"
+
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY") 
+API_SECRET =  os.getenv("API_SECRET")
 
 url = "https://live.trading212.com/api/v0/equity/metadata/instruments"
 
@@ -153,6 +161,7 @@ if response.ok:
 else:
     print(f"Error: {response.status_code}")
     print(response.text)
+
 ```
 
 
@@ -202,7 +211,7 @@ Trading 212 may reject orders because of instrument restrictions, minimum positi
 
 ## Disclaimer
 
-This project is provided for educational and automation purposes. It is an automated investing application and can result in financial losses, would recommend testing in demo before live environment BaseUrl to verify the Trading 212 API behaviour.
+This project is provided for educational and automation purposes. It is an automated investing application and can result in financial losses, would recommend testing in demo before live environment `BaseUrl` to verify the Clerusync Investment API and Trading 212 API behaviour.
 
 ## Future Improvements
 
