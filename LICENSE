@@ -173,18 +173,20 @@
       incurred by, or claims asserted against, such Contributor by reason
       of your accepting any such warranty or additional liability.
 
-  10. Third-party services and data. This project integrates with 
-      third-party services including the Trading 212 API and 
-      Clerusync Investment API. Use of those services, APIs, data 
-      and associated trademarks is subject to the respective providers' 
-      terms and conditions. The Apache License 2.0 applies only to
-      the original source code contained in this repository and does not 
-      grant rights to third-party APIs, data, trademarks or other 
-      third-party materials. 
-
    END OF TERMS AND CONDITIONS
 
-   Copyright 2026 734415 
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright 2026 734415
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
