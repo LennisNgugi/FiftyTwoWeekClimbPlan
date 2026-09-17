@@ -23,10 +23,10 @@ The bot attempts to invest approximately **£5 per order**.
 
 The bot monitors open positions and automatically sells when:
 
-* **Profit target:** `+1`
-* **Stop loss:** `-10`
+* **Profit target:** `+1%`
+* **Stop loss:** `-10%`
 
-After a stop-loss sale, the ticker is placed on a **12-hours cooldown** before another buy can be made.
+After a stop-loss sale, the ticker is placed on a **12-hour cool down** before another buy can be made.
 
 ## Configuration
 
