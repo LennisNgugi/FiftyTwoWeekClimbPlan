@@ -9,9 +9,9 @@ public class BotSettings
     /// How often the bot checks the market, Value is in milliseconds.
     public int CheckInterval { get; } = 60 * 1000;
     /// Profit percentage at which a position is sold  
-    public decimal ProfitTarget { get; } = 5m;
+    public decimal ProfitTarget { get; } = 1m;
     /// Loss percentage at which a position is sold   
-    public decimal StopLoss { get; } = -20m;
+    public decimal StopLoss { get; } = -10m;
     /// Number of hours a ticker remains blocked after a stop-loss sale.
     public int StopLossCooldownHours { get; } = 12;
     /// Approximate amount spent on each trade.
