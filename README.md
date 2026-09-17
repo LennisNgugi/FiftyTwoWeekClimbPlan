@@ -95,8 +95,8 @@ The main investing parameters are defined in the BotSettings class of `BotSettin
 
 ```csharp
     public int CheckIntervalSeconds { get; } = 60;
-    public decimal ProfitTarget { get; } = 5m;
-    public decimal StopLoss { get; } = -20m;
+    public decimal ProfitTarget { get; } = 1m;
+    public decimal StopLoss { get; } = -10m;
     public int StopLossCooldownHours { get; } = 12;
     public decimal BuyAmount { get; } = 5m;
     public int QuantityDecimalPlaces { get; } = 3;
@@ -107,8 +107,8 @@ These control:
 | Setting            |      Value | Description                       |
 | ------------------ | ---------: | --------------------------------- |
 | Check interval     | 60 seconds | Time between market checks        |
-| Profit target      |        +5% | Sells when this profit is reached |
-| Stop loss          |       -20% | Sells when this loss is reached   |
+| Profit target      |        +1% | Sells when this profit is reached |
+| Stop loss          |       -10% | Sells when this loss is reached   |
 | Stop-loss cooldown |   12 hours | Stops immediate re-entry          |
 | Buy amount         |         £5 | Approximate amount per order      |
 | Quantity precision | 3 decimals | Trading212 quantity rounding      | 
